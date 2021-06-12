@@ -1,9 +1,9 @@
 ---
-title: test title
-subtitle: this is a subtitle
-topic: this is a topic
-slug: test-post
-date: 2021-01-01T00:00:00+00:00
+title: test title 3
+subtitle: this is a subtitle 3
+topic: this is a topic 3
+slug: test-post3
+date: 2019-01-01T00:00:00+00:00
 thumb: ../images/thumbs/grumpyCat.jpeg
 featuredImg: ../images/featured/grumpyCat.jpeg
 ---

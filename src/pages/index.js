@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <Layout>
       <div>
-        <h2>page contents</h2>
+        <h2>this is a homepage</h2>
+        <p>short description</p>
+        <p>image</p>
       </div>
     </Layout>
   )

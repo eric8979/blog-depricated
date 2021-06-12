@@ -5,6 +5,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "Prompt", sans-serif;
+  color: #122;
 }
 html,
 body {
@@ -12,13 +13,22 @@ body {
   background-color: #f6f8fa;
 }
 
+//Layout
+
+.layout {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+// Navbar
+
 nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  min-width: 890px;
+  margin: 20px auto;
 
   .title {
+    margin: 0;
     display: flex;
     h1 {
       font-size: 3rem;
@@ -27,19 +37,22 @@ nav {
   }
 
   .links {
+    display: flex;
+    margin: 0;
+    align-items: center;
     a {
-      color: black;
       font-weight: 600;
       font-size: 1.5rem;
       margin: 0 1rem 0 1rem;
-      padding-bottom: 0.3rem;
-      border-bottom: 3px solid transparent;
+      border-bottom: 2px #122 hidden;
     }
     a:hover {
-      border-color: black;
+      border-bottom: solid;
     }
   }
 }
+
+// Footer
 
 footer {
   display: flex;

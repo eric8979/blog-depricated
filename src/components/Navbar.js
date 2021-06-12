@@ -26,10 +26,11 @@ export default function Navbar() {
         />
         <h1>{title}</h1>
       </div>
+
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/#">about</Link>
-        <Link to="/##">blog</Link>
+        <Link to="/about">about</Link>
+        <Link to="/posts">blog</Link>
       </div>
     </nav>
   )
