@@ -21,24 +21,26 @@ export default function Posts({ data }) {
             const image = getImage(post.frontmatter.thumb)
 
             return (
-              <Link
-                className={styles.post}
-                to={`/posts/${post.frontmatter.slug}`}
-                key={post.id}
-              >
-                <GatsbyImage
-                  className={styles.thumb}
-                  image={image}
-                  alt={"thumbnail"}
-                />
-                <div>
-                  <h3>
-                    {post.frontmatter.title} ({post.frontmatter.topic})
-                  </h3>
-                  <p>{post.frontmatter.subtitle}</p>
-                  <p>{post.frontmatter.date}</p>
-                </div>
-              </Link>
+              <div>
+                <Link
+                  className={styles.post}
+                  to={`/posts/${post.frontmatter.slug}`}
+                  key={post.id}
+                >
+                  <GatsbyImage
+                    className={styles.thumb}
+                    image={image}
+                    alt={"thumbnail"}
+                  />
+                  <div className={styles.info}>
+                    <h3>
+                      {post.frontmatter.title} - {post.frontmatter.topic}
+                    </h3>
+                    <p>{post.frontmatter.subtitle}</p>
+                    <p>{post.frontmatter.date}</p>
+                  </div>
+                </Link>
+              </div>
             )
           })}
         </div>
