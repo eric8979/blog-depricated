@@ -1,6 +1,15 @@
-# Memo
+# Source Code of my blog
 
-## types of websites (check [net ninja video](https://www.youtube.com/watch?v=Qms4k6y7OgI&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1&rv=Qms4k6y7OgI&t=25))
+This is my blog (Coding Whale).
+There were lots of trials and errors on this project and now here is the result!
+I enjoyed every moment of the project and learned alot.
+Here is what I used for this blog. Hope this helps you to build your own blog!
+
+---
+
+### Memo
+
+#### types of websites (check [net ninja video](https://www.youtube.com/watch?v=Qms4k6y7OgI&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1&rv=Qms4k6y7OgI&t=25))
 
 - static website (SEO👍, speed & update👎)
 
