@@ -1,9 +1,13 @@
-# Source Code of my blog
+# Coding Whale (my programming blog)🐋
 
-This is my blog (Coding Whale).
-There were lots of trials and errors on this project and now here is the result!
+This is my programming blog "Coding Whale". <br/>
+There were lots of trials and errors on this project and now here is the result!! 😎 <br/>
 I enjoyed every moment of the project and learned alot.
 Here is what I used for this blog. Hope this helps you to build your own blog!
+
+* Gatsby (need basic React)
+* Scss
+* netlify (for deploy)
 
 ---
 
