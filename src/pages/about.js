@@ -36,6 +36,7 @@ export default function about() {
             twitter:{" "}
             <a href="https://twitter.com/ericthewhale">@ericthewhale</a>
           </p>
+          <p>email: hsh048148@gmail.com</p>
         </div>
       </div>
     </Layout>

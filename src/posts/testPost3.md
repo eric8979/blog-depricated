@@ -4,8 +4,8 @@ subtitle: this is a subtitle 3
 topic: this is a topic 3
 slug: test-post3
 date: 2019-01-01T00:00:00+00:00
-thumb: ../images/thumbs/grumpyCat.jpeg
-featuredImg: ../images/featured/grumpyCat.jpeg
+thumb: ../images/thumbs/test2.jpg
+featuredImg: ../images/featured/test2.jpg
 ---
 
 ### Lorem ninja ipsum dolor

@@ -19,6 +19,8 @@ export default function Posts({ data }) {
         <div>
           {posts.map(post => {
             const image = getImage(post.frontmatter.thumb)
+            const date = post.frontmatter.date.slice(0, 10)
+            const time = post.frontmatter.date.slice(10)
 
             return (
               <div>
@@ -33,11 +35,16 @@ export default function Posts({ data }) {
                     alt={"thumbnail"}
                   />
                   <div className={styles.info}>
-                    <h3>
-                      {post.frontmatter.title} - {post.frontmatter.topic}
-                    </h3>
-                    <p>{post.frontmatter.subtitle}</p>
-                    <p>{post.frontmatter.date}</p>
+                    <p>
+                      <h3>{post.frontmatter.title}</h3> (
+                      {post.frontmatter.topic})
+                    </p>
+                    <p className={styles.subtitle}>
+                      {post.frontmatter.subtitle}
+                    </p>
+                    <p className={styles.date}>
+                      {date} ({time})
+                    </p>
                   </div>
                 </Link>
               </div>
