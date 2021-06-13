@@ -1,24 +1,42 @@
 import React from "react"
 import Layout from "../components/Layout"
+// styles
+import * as styles from "../styles/about.module.scss"
 
 export default function about() {
   return (
     <Layout>
-      <div>
-        <h2>Welcome to Eric Whale's web page</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-        <a href="">GitHub</a>
-        <a href="">twitter</a>
+      <div className={styles.container}>
+        <h2>Welcome to Eric Whale's blog!</h2>
+
+        <div className={styles.description}>
+          <p>I believe that ...</p>
+          <br />
+          <p>
+            One must still have chaos in oneself to be able to give birth to a
+            dancing star.
+            <br /> - Friedrich Nietzsche -
+          </p>
+          <br />
+          <p>
+            I love programming, learning new things, adventure, and "chaos".{" "}
+            <br /> For me, chaos is a constant change, dynamic movement, the
+            advance. I'm a student who loves programming and learning new
+            things. React, node.js/express, Python. And I know that I won't stop
+            here. Because I will keep dancing in the Chaos looking for the
+            Stars.
+          </p>
+        </div>
+
+        <div className={styles.links}>
+          <p>
+            GitHub: <a href="https://github.com/eric8979">eric8979</a>
+          </p>
+          <p>
+            twitter:{" "}
+            <a href="https://twitter.com/ericthewhale">@ericthewhale</a>
+          </p>
+        </div>
       </div>
     </Layout>
   )
