@@ -4,8 +4,8 @@ subtitle: this is a subtitle
 topic: this is a topic
 slug: test-post
 date: 2021-01-01T00:00:00+00:00
-thumb: ../images/thumbs/grumpyCat.jpeg
-featuredImg: ../images/featured/grumpyCat.jpeg
+thumb: ../images/thumbs/test-post.jpg
+featuredImg: ../images/featured/test-post.jpg
 ---
 
 ### Lorem ninja ipsum dolor
