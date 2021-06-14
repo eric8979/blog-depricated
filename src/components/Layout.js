@@ -12,7 +12,7 @@ export default function Layout({ children }) {
 
       <footer>
         <p>
-          Copyright 2021 <strong>Coding Whale</strong>
+          Copyright 2021 <strong>codingwhale.netlify.app</strong>
         </p>
       </footer>
     </div>

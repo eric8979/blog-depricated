@@ -18,7 +18,7 @@ export default function Home({ data }) {
         <div className={styles.title}>
           <h2>Coding Whale</h2>
           <h3>Learning Enthusiast | Web Developer</h3>
-          <Link to="/posts">blog 👨‍💻</Link>
+          <Link to="/posts">visit blog</Link>
         </div>
       </div>
     </Layout>

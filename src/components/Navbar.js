@@ -31,6 +31,15 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">about</Link>
         <Link to="/posts">blog</Link>
+        <a href="https://github.com/eric8979">
+          <StaticImage
+            src="../images/githublogo/githublight.png"
+            alt="github"
+            placeholder="blurred"
+            width={35}
+            height={35}
+          />
+        </a>
       </div>
     </nav>
   )

@@ -1,16 +1,24 @@
+@use "config";
+
 .container {
   width: 60%;
 
   h2 {
     font-size: 4rem;
     span {
-      color: #233;
+      color: config.$secondary-color;
       font-size: 1.5rem;
     }
   }
   h3 {
     font-size: 1.6rem;
   }
+
+  .featuredImg {
+    border-radius: 10px;
+    isolation: isolate;
+  }
+
   .html {
     margin-top: 2rem;
   }

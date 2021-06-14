@@ -1,7 +1,7 @@
 ---
 title: test title
 subtitle: this is a subtitle
-topic: this is a topic
+category: this is a category
 slug: test-post
 date: 2021-01-01T00:00:00+00:00
 thumb: ../images/thumbs/test-post.jpg
