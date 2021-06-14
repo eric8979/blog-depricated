@@ -17,7 +17,11 @@ export default function projectDetails({ data }) {
         </h2>
         <h3>{subtitle}</h3>
 
-        <GatsbyImage image={image} alt={"featured"} />
+        <GatsbyImage
+          className={styles.featuredImg}
+          image={image}
+          alt={"featured"}
+        />
 
         <div
           className={styles.html}

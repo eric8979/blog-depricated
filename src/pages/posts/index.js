@@ -13,7 +13,10 @@ export default function Posts({ data }) {
     <Layout>
       <div className={styles.container}>
         <p>
-          Like what you see? Email me at <strong>{contact}</strong>
+          Like what you see?{" "}
+          <Link to={"/about"} className={styles.contactme}>
+            <strong>Contact me</strong>
+          </Link>
         </p>
 
         <div>
@@ -34,6 +37,7 @@ export default function Posts({ data }) {
                     image={image}
                     alt={"thumbnail"}
                   />
+
                   <div className={styles.info}>
                     <p>
                       <h3>{post.frontmatter.title}</h3> (
