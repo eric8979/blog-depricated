@@ -12,13 +12,6 @@ export default function Posts({ data }) {
   return (
     <Layout>
       <div className={styles.container}>
-        <p>
-          Like what you see?{" "}
-          <Link to={"/about"} className={styles.contactme}>
-            <strong>Contact me</strong>
-          </Link>
-        </p>
-
         <div>
           {posts.map(post => {
             const image = getImage(post.frontmatter.thumb)
@@ -41,7 +34,7 @@ export default function Posts({ data }) {
                   <div className={styles.info}>
                     <p>
                       <h3>{post.frontmatter.title}</h3> (
-                      {post.frontmatter.topic})
+                      {post.frontmatter.category})
                     </p>
                     <p className={styles.subtitle}>
                       {post.frontmatter.subtitle}
@@ -73,7 +66,7 @@ export const query = graphql`
           date
           subtitle
           title
-          topic
+          category
           slug
           thumb {
             childImageSharp {

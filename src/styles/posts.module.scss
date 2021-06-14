@@ -1,15 +1,7 @@
 .container {
   width: 65%;
+  min-width: 800px;
   margin: 0 auto;
-
-  p {
-    margin: 0;
-    text-align: right;
-
-    .contactme:hover {
-      text-decoration: underline;
-    }
-  }
 
   .post {
     display: inline-flex;
@@ -22,7 +14,7 @@
     transition: box-shadow 0.4s;
 
     .thumb {
-      width: 10%;
+      width: 15%;
       height: 100%;
       margin: 0;
       overflow: hidden;
@@ -33,7 +25,7 @@
     }
 
     .info {
-      width: 90%;
+      width: 85%;
       padding-left: 1rem;
       p {
         text-align: left;
