@@ -12,7 +12,7 @@ export default function Posts({ data }) {
   return (
     <Layout>
       <div className={styles.container}>
-        <div>
+        <div className={styles.postbox}>
           {posts.map(post => {
             const image = getImage(post.frontmatter.thumb)
             const date = post.frontmatter.date.slice(0, 10)
