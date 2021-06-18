@@ -1,12 +1,12 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../../components/Layout"
+import Postbox from "../../components/Postbox"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 // style
 import * as styles from "../../styles/posts.module.scss"
 
 export default function Posts({ data }) {
-  const contact = data.site.siteMetadata.contact
   const posts = data.allMarkdownRemark.nodes
 
   return (
@@ -20,30 +20,7 @@ export default function Posts({ data }) {
 
             return (
               <div>
-                <Link
-                  className={styles.post}
-                  to={`/posts/${post.frontmatter.slug}`}
-                  key={post.id}
-                >
-                  <GatsbyImage
-                    className={styles.thumb}
-                    image={image}
-                    alt={"thumbnail"}
-                  />
-
-                  <div className={styles.info}>
-                    <p>
-                      <h3>{post.frontmatter.title}</h3> (
-                      {post.frontmatter.category})
-                    </p>
-                    <p className={styles.subtitle}>
-                      {post.frontmatter.subtitle}
-                    </p>
-                    <p className={styles.date}>
-                      {date} ({time})
-                    </p>
-                  </div>
-                </Link>
+                <Postbox post={post} image={image} date={date} time={time} />
               </div>
             )
           })}
