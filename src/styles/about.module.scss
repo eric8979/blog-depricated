@@ -1,3 +1,5 @@
+@use "config";
+
 .container {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -23,6 +25,14 @@
     }
     p {
       font-size: 1.3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: config.$tablet-screen) {
+  .container {
+    h2 {
+      font-size: 2.4rem;
     }
   }
 }

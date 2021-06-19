@@ -16,8 +16,8 @@ export default function Home({ data }) {
         </div>
 
         <div className={styles.title}>
-          <h3>Learning Enthusiast | Web Developer</h3>
-          <p>language: JavaScript, Python</p>
+          <h3>Learning Enthusiast programmer</h3>
+          <p>JavaScript, Python</p>
           <p>+ react, node/express, </p>
         </div>
       </div>

@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 export default function Navbar() {
   const info = useStaticQuery(graphql`
@@ -14,10 +16,32 @@ export default function Navbar() {
   `)
   const { title } = info.site.siteMetadata
 
+  const onClick = () => {
+    const menu = document.querySelector(".links")
+    const classList = menu.classList
+    if (classList.contains("responsive")) {
+      classList.remove("responsive")
+    } else {
+      classList.add("responsive")
+    }
+  }
+
+  const onClickBtn = () => {
+    const menu = document.querySelector(".links")
+    const classList = menu.classList
+    if (classList.contains("responsive")) {
+      classList.remove("responsive")
+    }
+  }
+
   return (
     <nav>
       <div className="title">
         <h1>🐋 {title}</h1>
+      </div>
+
+      <div className="burger">
+        <FontAwesomeIcon icon={faBars} size="2x" onClick={onClick} />
       </div>
 
       <div className="links">
@@ -33,6 +57,7 @@ export default function Navbar() {
             height={35}
           />
         </a>
+        <button onClick={onClickBtn}>back</button>
       </div>
     </nav>
   )
