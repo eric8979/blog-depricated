@@ -16,9 +16,9 @@ export default function Home({ data }) {
         </div>
 
         <div className={styles.title}>
-          <h2>Coding Whale</h2>
           <h3>Learning Enthusiast | Web Developer</h3>
-          <Link to="/posts">visit blog</Link>
+          <p>language: JavaScript, Python</p>
+          <p>+ react, node/express, </p>
         </div>
       </div>
     </Layout>
@@ -27,7 +27,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query Logo {
-    file(relativePath: { eq: "logo.png" }) {
+    file(relativePath: { eq: "logo.jpeg" }) {
       childImageSharp {
         gatsbyImageData
       }

@@ -17,14 +17,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="title">
-        <StaticImage
-          src="../images/logo.png"
-          alt="logo"
-          placeholder="blurred"
-          width={60}
-          height={60}
-        />
-        <h1>{title}</h1>
+        <h1>🐋 {title}</h1>
       </div>
 
       <div className="links">
