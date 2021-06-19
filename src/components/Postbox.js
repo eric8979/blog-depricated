@@ -20,7 +20,7 @@ export default function Postbox({ post, date, time, image }) {
           <p className={styles.category}>{post.frontmatter.category}</p>
           <h3 className={styles.title}>{post.frontmatter.title}</h3>
           <h4 className={styles.subtitle}>{post.frontmatter.subtitle}</h4>
-          <p className={styles.date}>{date} </p>
+          <p className={styles.date}>{date}</p>
         </div>
       </Link>
     </div>

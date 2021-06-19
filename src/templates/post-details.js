@@ -12,9 +12,8 @@ export default function projectDetails({ data }) {
   return (
     <Layout>
       <div className={styles.container}>
-        <h2>
-          {title} <span>{category}</span>
-        </h2>
+        <span>{category}</span>
+        <h2>{title}</h2>
         <h3>{subtitle}</h3>
 
         <GatsbyImage

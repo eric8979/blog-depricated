@@ -4,16 +4,15 @@
   width: 80%;
   .postbox {
     display: grid;
-    grid-template-columns: auto auto auto;
-    row-gap: 50px;
-    column-gap: 50px;
-    margin-top: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 40px;
+    column-gap: 40px;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 
     .post {
       background-color: white;
       height: 440px;
-      max-height: 450px;
       width: 1fr;
       border-radius: 8px;
       cursor: pointer;
@@ -71,6 +70,17 @@
       .thumb {
         transform: scale(1.05);
       }
+    }
+  }
+}
+
+@media only screen and (max-width: config.$tablet-screen) {
+  .container {
+    width: 90%;
+
+    .postbox {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
     }
   }
 }
