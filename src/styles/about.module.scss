@@ -24,6 +24,9 @@
   }
 
   .description {
+    div {
+      margin-bottom: 0.5rem;
+    }
     p {
       font-size: 1.5rem;
     }
@@ -67,10 +70,10 @@
     .title {
       display: flex;
       justify-content: flex-start;
-      align-items: flex-start;
+      align-items: center;
       box-sizing: border-box;
-      height: 100px;
-      max-height: 100px;
+      height: 90px;
+      max-height: 90px;
       h2 {
         margin: 0;
         font-size: 3rem;
@@ -78,7 +81,7 @@
       img {
         margin: 0;
         object-fit: contain;
-        width: 100px;
+        height: 90px;
       }
     }
 

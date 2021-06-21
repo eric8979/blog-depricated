@@ -17,9 +17,10 @@ export default function about({ data }) {
         </div>
 
         <div className={styles.description}>
-          <p>I am...</p>
-          <p>I believe in...</p>
-          <br />
+          <div>
+            <p>I am...</p>
+            <p>I believe in...</p>
+          </div>
           <ul>
             <li>
               <strong>Language:</strong> JavaScript/TypeScript, Python, graphQL
