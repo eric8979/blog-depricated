@@ -1,5 +1,5 @@
 ---
-title: How to get used to neoVim
+title: How to Vim/neoVim
 subtitle: Overcome first big wall of Vim world
 category: neovim
 slug: how-to-neovim
