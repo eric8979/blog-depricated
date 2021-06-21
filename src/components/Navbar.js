@@ -26,14 +26,13 @@ export default function Navbar() {
     }
   }
 
-  const onClickBtn = () => {
-    const menu = document.querySelector(".links")
-    const classList = menu.classList
-    if (classList.contains("responsive")) {
-      classList.remove("responsive")
+  const onClickLinks = e => {
+    const clickBackground = e.target.classList.contains("links")
+    if (clickBackground) {
+      const menu = document.querySelector(".links")
+      menu.classList.remove("responsive")
     }
   }
-
   return (
     <nav>
       <div className="title">
@@ -44,7 +43,7 @@ export default function Navbar() {
         <FontAwesomeIcon icon={faBars} size="2x" onClick={onClick} />
       </div>
 
-      <div className="links">
+      <div className="links" onClick={onClickLinks}>
         <Link to="/">Home</Link>
         <Link to="/about">about</Link>
         <Link to="/posts">blog</Link>
@@ -57,7 +56,6 @@ export default function Navbar() {
             height={35}
           />
         </a>
-        <button onClick={onClickBtn}>back</button>
       </div>
     </nav>
   )

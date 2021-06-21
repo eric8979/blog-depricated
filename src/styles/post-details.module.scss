@@ -5,16 +5,21 @@
   display: flex;
   flex-direction: column;
 
-  span {
-    color: config.$third-color;
-    font-size: 1.5rem;
-    text-align: right;
+  .frontmatter {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    margin-top: 0.1rem;
+    span {
+      color: config.$third-color;
+      font-size: 1.2rem;
+      margin: 0;
+    }
   }
-  h2 {
+  .title {
     font-size: 4rem;
   }
-  h3 {
+  .subtitle {
     font-size: 1.6rem;
     margin-bottom: 1rem;
   }
@@ -27,26 +32,52 @@
   .html {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
+
+    h4 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
   }
 }
 
 @media only screen and (max-width: config.$tablet-screen) {
   .container {
     width: 95%;
-    span {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
+
+    .frontmatter {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      span {
+        color: config.$third-color;
+        font-size: 1rem;
+        margin: 0;
+      }
     }
-    h2 {
-      font-size: 3rem;
+
+    .title {
+      text-align: left;
+      margin-left: 0;
+      font-size: 2rem;
     }
-    h3 {
-      font-size: 1.5rem;
+    .subtitle {
+      text-align: left;
+      margin-left: 0;
+      font-size: 1.1rem;
     }
 
     .html {
       margin-top: 1rem;
       margin-bottom: 0.8rem;
+
+      h4 {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
     }
   }
 }

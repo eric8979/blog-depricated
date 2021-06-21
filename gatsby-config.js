@@ -13,6 +13,29 @@ module.exports = {
     `gatsby-transformer-sharp`,
     "gatsby-transformer-remark",
     {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          placeholder: `blurred`,
+          backgroundColor: `transparent`,
+        },
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: "carbon",
+              theme: "one-light",
+            },
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

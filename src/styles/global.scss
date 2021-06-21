@@ -108,17 +108,21 @@ footer {
       height: 100%;
       display: flex;
       flex-direction: column;
-      padding-top: 10rem;
+      padding-top: 11rem;
       position: fixed;
       z-index: 2;
       background-color: rgba(153, 153, 153, 0.8);
+      align-items: center;
 
       a {
         text-align: center;
         margin: 0;
+        margin-bottom: 0.3rem;
         font-size: 1.5rem;
         font-weight: 600;
         padding: 0.8rem;
+        width: 30%;
+        text-decoration: underline;
       }
       button {
         margin-top: 1.5rem;
