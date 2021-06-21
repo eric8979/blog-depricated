@@ -21,28 +21,22 @@
     margin-bottom: 8rem;
     h3 {
       margin: 0;
-      text-align: right;
-      font-size: 2.5rem;
-      font-family: config.$third-font;
-    }
-    a {
-      margin-right: 0;
-      margin-top: 1rem;
-      background-color: config.$button-bgcolor-default;
-      color: white;
-      font-weight: 600;
-      font-size: 1.5rem;
-      font-family: config.$third-font;
-      border-radius: 5px;
-      width: 12rem;
-      padding-top: 5px;
-      padding-bottom: 5px;
       text-align: center;
-      transition: background-color 0.3s;
-      box-shadow: 3px 3px 5px #999;
+      font-size: 4rem;
+      font-family: config.$third-font;
     }
-    a:hover {
-      background-color: config.$button-bgcolor-hover;
+    .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      text-align: center;
+      list-style: none;
+      li {
+        font-size: 25px;
+        width: 100%;
+      }
     }
   }
 }
@@ -61,8 +55,15 @@
       margin-bottom: 4rem;
       h3 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 3rem;
         margin-bottom: 0.5rem;
+      }
+      .description {
+        margin-top: 0.5rem;
+        li {
+          font-size: 1.3rem;
+          width: 100%;
+        }
       }
     }
   }

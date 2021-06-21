@@ -1,31 +1,28 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { graphql, Link } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 // styles
 import * as styles from "../styles/about.module.scss"
 
-export default function about() {
+export default function about({ data }) {
+  const image = getImage(data.file)
+
   return (
     <Layout>
       <div className={styles.container}>
-        <h2>Welcome to Eric Whale's blog!</h2>
+        <div className={styles.title}>
+          <h2>Welcome!</h2>
+          <GatsbyImage image={image} alt={"banner2"} />
+        </div>
 
         <div className={styles.description}>
-          <p>I believe that ...</p>
+          <p>I believe in...</p>
           <br />
-          <p>
-            One must still have chaos in oneself to be able to give birth to a
-            dancing star.
-            <br /> - Friedrich Nietzsche -
-          </p>
-          <br />
-          <p>
-            I love programming, learning new things, adventure, and "chaos".{" "}
-            <br /> For me, chaos is a constant change, dynamic movement, the
-            advance. I'm a student who loves programming and learning new
-            things. React, node.js/express, Python. And I know that I won't stop
-            here. Because I will keep dancing in the Chaos looking for the
-            Stars.
-          </p>
+          <ul>
+            <li>Language: JavaScript/TypeScript, Python, graphQL</li>
+            <li>Framework(Tool): react, node/express, mongoDB</li>
+          </ul>
         </div>
 
         <div className={styles.links}>
@@ -36,9 +33,19 @@ export default function about() {
             twitter:{" "}
             <a href="https://twitter.com/ericthewhale">@ericthewhale</a>
           </p>
-          <p>email: hsh048148@gmail.com</p>
+          <p>e-mail: hsh048148@gmail.com</p>
         </div>
       </div>
     </Layout>
   )
 }
+
+export const query = graphql`
+  query Logo2 {
+    file(relativePath: { eq: "logo2.png" }) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
+  }
+`
