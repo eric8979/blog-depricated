@@ -17,11 +17,16 @@ export default function about({ data }) {
         </div>
 
         <div className={styles.description}>
+          <p>I am...</p>
           <p>I believe in...</p>
           <br />
           <ul>
-            <li>Language: JavaScript/TypeScript, Python, graphQL</li>
-            <li>Framework(Tool): react, node/express, mongoDB</li>
+            <li>
+              <strong>Language:</strong> JavaScript/TypeScript, Python, graphQL
+            </li>
+            <li>
+              <strong>Tool:</strong> react, node/express, mongoDB
+            </li>
           </ul>
         </div>
 

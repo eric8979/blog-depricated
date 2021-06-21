@@ -24,8 +24,9 @@
   }
 
   .description {
-    font-size: 1.5rem;
-
+    p {
+      font-size: 1.5rem;
+    }
     ul {
       margin-left: 2rem;
     }
@@ -38,13 +39,13 @@
     padding: 1rem;
 
     a {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
     a:hover {
       text-decoration: underline;
     }
     p {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
   }
 }
@@ -66,6 +67,15 @@
         margin: 0;
         object-fit: contain;
         width: 100px;
+      }
+    }
+
+    .links {
+      a {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 1rem;
       }
     }
   }
