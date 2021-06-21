@@ -4,10 +4,10 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as styles from "../styles/post-details.module.scss"
 import { graphql } from "gatsby"
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
+deckDeckGoHighlightElement()
 
 const projectDetails = ({ data }) => {
   const { html } = data.markdownRemark
-  deckDeckGoHighlightElement(html)
   const { title, category, subtitle, date } = data.markdownRemark.frontmatter
   const image = getImage(data.markdownRemark.frontmatter.featuredImg)
 
