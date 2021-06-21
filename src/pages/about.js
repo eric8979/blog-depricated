@@ -30,6 +30,10 @@ export default function about({ data }) {
           </ul>
         </div>
 
+        <div className={styles.blogmeta}>
+          This blog is built using JAM Stack {"(JavaScript, Gatsby(react))"}
+        </div>
+
         <div className={styles.links}>
           <p>
             GitHub: <a href="https://github.com/eric8979">eric8979</a>
