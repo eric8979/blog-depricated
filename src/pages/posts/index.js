@@ -19,7 +19,7 @@ export default function Posts({ data }) {
             const time = post.frontmatter.date.slice(10)
 
             return (
-              <div>
+              <div key={post.id}>
                 <Postbox post={post} image={image} date={date} time={time} />
               </div>
             )
