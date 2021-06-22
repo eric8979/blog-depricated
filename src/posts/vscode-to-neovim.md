@@ -8,28 +8,50 @@ thumb: ../images/thumbs/neovim.png
 featuredImg: ../images/featured/neovim.png
 ---
 
-#### Installing neoVim easily (for mac)
+#### Before you jump in
 
-I'm sure that people reading this article is already familiar with Vim or neoVim. (If you aren't check this blog first). The logical step after knowing what Vim is, is to install and using it.
-<br>
-In (this blog)[https://medium.com/life-at-moka/step-up-your-game-with-neovim-62ba814166d7], there is 
-<br><br>
+I strongly recommend to use vim extension on vscode(vscodevim.vim). The process will help you to get used to commmands. I organized the basics down below. Check it out!
+
+#### Install and config
 
 ```shell
 brew install --HEAD neovim
 ```
 
-(I installed ver.0.5)
-<br><br>
-But that isn't enough. if you type `nvim` on terminal you see black empty hallow with some white text in the middle and you don't know what to do next. That's where I was 3 days ago. Let me show you easy way to config neoVim(installing some plugins) and basic strucutre of it.
-<br><br>
-
-#### How to get used to Vim/neoVim commands
-
-first, do these.
-
 ```shell
-mkdir ~/.config/nvim
-
+mkdir .config/nivm
+cd .config/nvim
+touch init.vim
+touch coc-settings.json
 ```
 
+I used [Ben Awad's init.vim](https://gist.github.com/benawad/b768f5a5bbd92c8baabd363b7e79786f) and [coc-settings.json](https://gist.github.com/benawad/e187dd887f256a6a002905ec7f22ad76) for basic setup(copy past it), if you are beginner like me, this will suffice. 
+
+
+
+#### Vim/neoVim commands
+
+almost every commands can include number (ex) "3 + }" == cursor to 3 chunks down)
+
+1. basic commands
+  * <esc>
+  * i, o, u
+  * :q, :q!, :w, :wq
+  * h, j, k, l / w, b
+  * y, p, d(dd), a
+  * {, }
+  * gg, G
+  * v, V
+2. basic commands #2
+  * shift + p
+  * shift + o
+
+
+#### useful links
+
+- [vim cheatsheet](https://vim.rtorr.com/)
+- [basic vim commands from ThePrimeagen](https://www.youtube.com/watch?v=H3o4l4GVLW0)
+- [check this blog for different method](https://medium.com/life-at-moka/step-up-your-game-with-neovim-62ba814166d7)
+- [top 20 neovim plugins](https://breuer.dev/blog/top-neovim-plugins)
+  
+  
