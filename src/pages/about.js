@@ -19,8 +19,8 @@ export default function about({ data }) {
         <div className={styles.description}>
           <div>
             <p>
-              I am University Student majoring in Computer Engineering. I do personal projects and post them on GitHub. For that, I learn new languages and frameworks which is a lot of fun. I haven't decided on a field to focus on, but since I have many ideas that require a website/app, I have a skill set of a full-stack developer. I dream of a utopia and I believe by collective contemplation we can get closer.
-            </p>
+             I am a University Student major in Computer Engineering. I do personal projects and post them on GitHub. I love learning new things, so it's always fun to learn new languages and frameworks for my projects. I haven't decided on a field to focus on yet, but since I have many ideas that require a website/app, I have a skill set of a full-stack developer (specifics down below).
+I dream of a utopia, and I believe that by collective contemplation, we will get closer. </p>
           </div>
           <ul>
             <li>
