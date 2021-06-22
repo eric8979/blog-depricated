@@ -4,13 +4,13 @@ subtitle: Overcome first big wall of Vim world
 category: neovim
 slug: vscode-to-neovim
 date: 2021-06-21T14:00:00+00:00
-thumb: ../images/thumbs/neovim.png
-featuredImg: ../images/featured/neovim.png
+thumb: ../images/thumbs/vscode-to-neovim.png
+featuredImg: ../images/featured/vscode-to-neovim.png
 ---
 
 #### Before you jump in
 
-I strongly recommend to use vim extension on vscode(vscodevim.vim). The process will help you to get used to commmands. I organized the basics down below. Check it out!
+I strongly recommend to use vim extension on vscode(vscodevim.vim). Since most of the commands of vim and neoVim is similar, it will help you to get used to the commmands. I organized the basic commands down below. Check it out!
 
 #### Install and config
 
@@ -38,7 +38,7 @@ almost every commands can include number (ex) "3 + }" == cursor to 3 chunks down
   * i, o, u
   * :q, :q!, :w, :wq
   * h, j, k, l / w, b
-  * y, p, d(dd), a
+  * y, p(yyp), d(dd), a
   * {, }
   * gg, G
   * v, V
