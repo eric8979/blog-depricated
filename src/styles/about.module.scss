@@ -26,6 +26,8 @@
   .description {
     div {
       margin-bottom: 0.5rem;
+      border: 3px solid;
+      padding: 0.5rem;
     }
     p {
       font-size: 1.5rem;
@@ -36,7 +38,7 @@
   }
 
   .links {
-    border: 2px solid #122;
+    border: 2px solid config.$default-color;
     margin-top: 1rem;
     margin-bottom: 0.9rem;
     padding: 1rem;
@@ -53,7 +55,7 @@
   }
 
   .blogmeta {
-    border: 2px solid #122;
+    border: 2px solid config.$default-color;
     padding: 0.3rem;
     font-size: 0.8rem;
     margin-top: 1rem;
@@ -85,7 +87,17 @@
       }
     }
 
+    .description {
+      div {
+        border: 2px solid config.$default-color;
+        padding: 0.5rem;
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
     .links {
+      padding: 0.5rem;
       a {
         font-size: 1rem;
       }
