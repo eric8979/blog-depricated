@@ -1,21 +1,19 @@
-# blog (Coding Whale 🐋) 
+# 🐋 Coding Whale (programming blog)
 
-blog name: "Coding Whale". <br/>
+* Language: JavaScript (-> TypeScript soon)
+* Package installer: npm
+* Build: Gatsby (need React basics) - checkout source code for plugins
+* Style: Scss
+* Deploy: Netlify & GitHub page
+
+---
+
 There were a lots of trials and errors on this project and now here is the result!! 😎 <br/>
 I enjoyed every moment of the journey and learned alot.
 Here is what I used for this blog. Hope this helps you to build your own blog!
 
-* language: JavaScript (-> TypeScript soon)
-* package installer: npm
-* Build: Gatsby (need React basics) - checkout source code for plugins
-* style: Scss
-* deploy: Netlify & GitHub
 
----
-
-### Memo
-
-#### types of websites 
+<!--  types of websites 
 
 - static website (SEO👍, speed & update👎)
 
@@ -32,4 +30,5 @@ Here is what I used for this blog. Hope this helps you to build your own blog!
   - made with react/vue
   - after initial request, the site behaves like a SPA
  
-https://www.youtube.com/watch?v=Qms4k6y7OgI&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1&rv=Qms4k6y7OgI&t=25
+[net ninja video](https://www.youtube.com/watch?v=Qms4k6y7OgI&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1&rv=Qms4k6y7OgI&t=25)
+ -->
