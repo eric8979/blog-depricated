@@ -18,12 +18,20 @@ export default function about({ data }) {
 
         <div className={styles.description}>
           <div>
-            <p>I am...</p>
-            <p>I believe in...</p>
+            <p>
+              I am University Student majoring Computer Engineering. I do
+              personal projects and post it on GitHub. For that, I learn new
+              languages and frameworks which is a lot of fun. I haven't decided
+              a field to focus on, but since I have many ideas that requires
+              website/app, I have a skill set of a full-stack developer. I dream
+              an utopia and I believe by collective contemplation we can get
+              closer.
+            </p>
           </div>
           <ul>
             <li>
-              <strong>Language:</strong> JavaScript/TypeScript, Python, graphQL
+              <strong>Language:</strong> JavaScript/TypeScript, Python, graphQL,
+              C++, (Scss)
             </li>
             <li>
               <strong>Tool:</strong> react, node/express, mongoDB
