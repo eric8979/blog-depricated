@@ -12,7 +12,7 @@ featuredImg: ../images/featured/neovim.png
 
 I'm sure that people reading this article is already familiar with Vim or neoVim. (If you aren't check this blog first). The logical step after knowing what Vim is, is to install and using it.
 <br>
-Installing is easy just do
+In (this blog)[https://medium.com/life-at-moka/step-up-your-game-with-neovim-62ba814166d7], there is 
 <br><br>
 
 ```shell
@@ -21,7 +21,15 @@ brew install --HEAD neovim
 
 (I installed ver.0.5)
 <br><br>
-But that isn't enough. if you type `neovim` on terminal you see black empty hallow with some white text in the middle and you don't know what to do next. That's where I was 3 days ago. Let me show you easy way to config neoVim(installing some plugins) and basic strucutre of it.
+But that isn't enough. if you type `nvim` on terminal you see black empty hallow with some white text in the middle and you don't know what to do next. That's where I was 3 days ago. Let me show you easy way to config neoVim(installing some plugins) and basic strucutre of it.
 <br><br>
 
 #### How to get used to Vim/neoVim commands
+
+first, do these.
+
+```shell
+mkdir ~/.config/nvim
+
+```
+
