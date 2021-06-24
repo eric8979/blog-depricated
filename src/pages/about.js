@@ -19,8 +19,15 @@ export default function about({ data }) {
         <div className={styles.description}>
           <div>
             <p>
-             I am a University Student major in Computer Engineering. I do personal projects and post them on GitHub. I love learning new things, so it's always fun to learn new languages and frameworks for my projects. I haven't decided on a field to focus on yet, but since I have many ideas that require a website/app, I have a skill set of a full-stack developer (specifics down below).
-I dream of a utopia, and I believe that by collective contemplation, we will get closer. </p>
+              I am a University Student major in Computer Engineering. I do
+              personal projects and post them on GitHub. I love learning new
+              things, so it's always fun to learn new languages and frameworks
+              for my projects. I haven't decided on a field to focus on yet, but
+              since I have many ideas that require a website/app, I have a skill
+              set of a full-stack developer (specifics down below). I dream of a
+              utopia, and I believe that by collective contemplation, we will
+              get closer.{" "}
+            </p>
           </div>
           <ul>
             <li>
@@ -46,6 +53,26 @@ I dream of a utopia, and I believe that by collective contemplation, we will get
             <a href="https://twitter.com/ericthewhale">@ericthewhale</a>
           </p>
           <p>e-mail: hsh048148@gmail.com</p>
+        </div>
+
+        <div className={styles.cc}>
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc/4.0/"
+          >
+            <img
+              alt="Creative Commons License"
+              src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+            />
+          </a>
+          <br />
+          This blog is licensed under a{" "}
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc/4.0/"
+          >
+            Creative Commons Attribution-NonCommercial 4.0 International License
+          </a>
         </div>
       </div>
     </Layout>

@@ -65,6 +65,11 @@
       }
     }
   }
+
+  .cc {
+    border: 2px solid config.$default-color;
+    padding: 0.3rem;
+  }
 }
 
 @media only screen and (max-width: config.$tablet-screen) {
@@ -103,6 +108,12 @@
       }
       p {
         font-size: 1rem;
+      }
+    }
+    .cc {
+      font-size: 0.6rem;
+      a {
+        font-size: 0.6rem;
       }
     }
   }
