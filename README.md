@@ -19,7 +19,11 @@ Welcome to my blog and feel free to use the source code if you want. Suggestions
 * Style: Scss
 * Deploy: Netlify & GitHub page
 
+---
 
+### memo
+
+💲 blog domain??
 
 <!--  types of websites 
 
