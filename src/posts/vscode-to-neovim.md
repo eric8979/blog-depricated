@@ -1,12 +1,12 @@
 ---
 title: VSCode to Neovim
 subtitle: Overcome the first big wall of Vim world
-category: neovim
+category: vim
 slug: vscode-to-neovim
 date: 2021-06-24T00:06:00+00:00
-featuredImgUrl: https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-logo-300x87.png
+featuredImgUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/128px-Vimlogo.svg.png
 featuredImgAlt: vscode-to-neovim
-imgSource: https://github.com/neovim
+imgSource: https://en.wikipedia.org/wiki/Vim_(text_editor)
 ---
 
 #### The concept

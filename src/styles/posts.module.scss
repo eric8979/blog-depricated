@@ -50,7 +50,7 @@
         .category {
           color: config.$third-color;
           text-align: left;
-          font-size: 0.8rem;
+          font-size: 0.9rem;
         }
         .title {
           text-align: left;
@@ -87,6 +87,18 @@
     .postbox {
       margin-top: 1rem;
       margin-bottom: 1rem;
+
+      .post {
+        .info {
+          margin-top: 0;
+          .title {
+            font-weight: 600;
+          }
+          .subtitle {
+            font-size: 1.1rem;
+          }
+        }
+      }
     }
   }
 }

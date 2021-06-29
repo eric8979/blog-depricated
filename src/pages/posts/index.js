@@ -14,7 +14,7 @@ export default function Posts({ data }) {
       <div className={styles.container}>
         <div className={styles.postbox}>
           {posts.map(post => {
-            const image = getImage(post.frontmatter.featuredImgUrl)
+            const image = getImage(post.featuredImg)
             const date = post.frontmatter.date.slice(0, 10)
             const time = post.frontmatter.date.slice(10)
 
@@ -39,13 +39,17 @@ export const query = graphql`
     }
     allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
       nodes {
+        featuredImg {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
         frontmatter {
           date
           subtitle
           title
           category
           slug
-          featuredImgUrl
         }
         id
       }
