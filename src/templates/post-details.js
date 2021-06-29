@@ -8,8 +8,14 @@ deckDeckGoHighlightElement()
 
 const projectDetails = ({ data }) => {
   const { html } = data.markdownRemark
-  const { title, category, subtitle, date } = data.markdownRemark.frontmatter
-  const image = getImage(data.markdownRemark.frontmatter.featuredImg)
+  const {
+    title,
+    category,
+    subtitle,
+    date,
+    imgSource,
+  } = data.markdownRemark.frontmatter
+  const image = getImage(data.markdownRemark.featuredImg)
 
   const onlyDate = date.slice(0, 10)
 
@@ -24,11 +30,14 @@ const projectDetails = ({ data }) => {
         <h2 className={styles.title}>{title}</h2>
         <h2 className={styles.subtitle}>{subtitle}</h2>
 
-        <GatsbyImage
-          className={styles.featuredImg}
-          image={image}
-          alt={"featured"}
-        />
+        <div className={styles.imgBox}>
+          <GatsbyImage
+            className={styles.featuredImg}
+            image={image}
+            alt={"featured"}
+          />
+          <span>{imgSource}</span>
+        </div>
 
         <div
           className={styles.html}
@@ -44,16 +53,17 @@ export const query = graphql`
   query Posts($slug: String) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
+      featuredImg {
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
       frontmatter {
         date
         title
         category
         subtitle
-        featuredImg {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
+        imgSource
       }
     }
   }

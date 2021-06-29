@@ -19,16 +19,27 @@
   .title {
     font-size: 4rem;
     margin-left: 0;
+    font-weight: 500;
   }
   .subtitle {
     margin-left: 0;
     font-size: 1.7rem;
+    font-weight: 500;
+    text-decoration: underline;
     margin-bottom: 1rem;
   }
 
-  .featuredImg {
-    border-radius: 10px;
-    isolation: isolate;
+  .imgBox {
+    width: 100%;
+    .featuredImg {
+      border-radius: 10px;
+      isolation: isolate;
+    }
+    span {
+      font-size: 0.7rem;
+      color: config.$third-color;
+      margin: 0;
+    }
   }
 
   .html {
@@ -37,14 +48,22 @@
 
     h4 {
       font-size: 2rem;
+      font-weight: 500;
     }
     p {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 300;
+      strong {
+        font-weight: 400;
+      }
     }
     ul,
     ol {
+      font-weight: 300;
       margin-left: 2rem;
+      strong {
+        font-weight: 400;
+      }
     }
     a {
       color: blue;
@@ -54,7 +73,7 @@
 
 @media only screen and (max-width: config.$tablet-screen) {
   .container {
-    width: 90%;
+    width: 94%;
 
     .frontmatter {
       display: flex;
@@ -78,6 +97,15 @@
       font-size: 1.1rem;
     }
 
+    .imgBox {
+      .featuredImg {
+        border-radius: 5px;
+      }
+      span {
+        font-size: 0.6rem;
+      }
+    }
+
     .html {
       margin-top: 1rem;
       margin-bottom: 0.8rem;
@@ -85,14 +113,17 @@
 
       h4 {
         font-size: 1.3rem;
-        text-decoration: underline;
+        font-weight: 600;
       }
       p {
-        font-size: 1rem;
+        font-size: 0.95rem;
       }
       ul,
       ol {
         margin-left: 1rem;
+        li {
+          font-size: 0.95rem;
+        }
       }
     }
   }

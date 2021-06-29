@@ -3,9 +3,10 @@ title: MERN Stack setup
 subtitle: How to setup mern stack
 category: mern
 slug: mern-stack-setup
-date: 2021-06-28T00:06:00+00:00
-thumb: ../images/thumbs/mern-stack-setup.jpeg
-featuredImg: ../images/featured/mern-stack-setup.jpeg
+date: 2021-06-29T00:06:00+00:00
+featuredImgUrl: https://swonigatechnology.com/wp-content/uploads/2021/03/Blog-Article-MERN-Stack.jpg
+featuredImgAlt: mern-stack-setup
+imgSource: https://swonigatechnology.com/mern-stack/
 ---
 
 #### What is a MERN stack?
@@ -23,15 +24,15 @@ MERN is abbreviation of 4 frameworks/enviorment for web-development.
 
 #### Before you jump in...
 
-Prerequisites: basic understanding on...
+You need a basic understanding on...
 
 <br>
 
-- TypeScript/JavaScript, Scss/CSS, GraphQL/Apollo
-- package installer: npm/yarn
+- TypeScript/JavaScript, Scss/CSS, GraphQL(Apollo)
 - React
 - node/express
 - mongoDB(NoSQL database)
+- package installer: npm/yarn
 
 <br>
 
@@ -39,8 +40,8 @@ I'm sure that you already have installed node and npm(yarn), but for those of yo
 
 <br>
 
-1. [install nodejs](https://nodejs.org/) - You'll get npm alongside.
-2. [install yarn](https://yarnpkg.com/getting-started/install) - This project uses yarn.
+1. [install node.js](https://nodejs.org/) - You'll get npm alongside.
+2. [install yarn](https://yarnpkg.com/getting-started/install) - My repo uses yarn.
 3. [install VSCode](https://code.visualstudio.com) - For "Live Sass Compiler" you need this.
 
 <br>
@@ -57,7 +58,21 @@ git clone https://github.com/eric8979/mern-boilerplate.git
 
 <br>
 
-Next, read the README. Basic info is in there.
+Next, install packages with yarn (for client and serve)
+
+<br>
+
+```shell
+cd your-cloned-folder
+yarn
+
+cd client
+yarn
+```
+
+<br>
+
+Finally, read the **README**. Basic info is in there.
 
 <br>
 

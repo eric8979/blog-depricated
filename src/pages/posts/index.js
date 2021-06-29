@@ -14,7 +14,7 @@ export default function Posts({ data }) {
       <div className={styles.container}>
         <div className={styles.postbox}>
           {posts.map(post => {
-            const image = getImage(post.frontmatter.thumb)
+            const image = getImage(post.frontmatter.featuredImgUrl)
             const date = post.frontmatter.date.slice(0, 10)
             const time = post.frontmatter.date.slice(10)
 
@@ -45,11 +45,7 @@ export const query = graphql`
           title
           category
           slug
-          thumb {
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
+          featuredImgUrl
         }
         id
       }
