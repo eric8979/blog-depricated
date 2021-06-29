@@ -24,9 +24,7 @@ export default function about({ data }) {
               things, so it's always fun to learn new languages and frameworks
               for my projects. I haven't decided on a field to focus on yet, but
               since I have many ideas that require a website/app, I have a skill
-              set of a full-stack developer (specifics down below). I dream of a
-              utopia, and I believe that by collective contemplation, we will
-              get closer.{" "}
+              set of a full-stack developer (specifics down below).
             </p>
           </div>
           <ul>
