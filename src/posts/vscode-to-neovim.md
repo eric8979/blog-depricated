@@ -4,9 +4,9 @@ subtitle: Overcome the first big wall of Vim world
 category: vim
 slug: vscode-to-neovim
 date: 2021-06-24T00:06:00+00:00
-featuredImgUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/128px-Vimlogo.svg.png
+featuredImgUrl: https://download.logo.wine/logo/Vim_(text_editor)/Vim_(text_editor)-Logo.wine.png
 featuredImgAlt: vscode-to-neovim
-imgSource: https://en.wikipedia.org/wiki/Vim_(text_editor)
+imgSource: https://www.logo.wine/logo/Vim_(text_editor)
 ---
 
 #### The concept
