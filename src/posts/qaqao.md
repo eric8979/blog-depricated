@@ -4,7 +4,7 @@ subtitle: Build log of qaqao(mock kakao)
 category: project
 slug: qaqao
 date: 2021-07-03T00:08:30+00:00
-featuredImgUrl: https://seeklogo.com/images/K/kakao-talk-logo-7542043DFC-seeklogo.com.png
+featuredImgUrl: https://seeklogo.com/images/K/kakao-logo-3FAB2BB9CD-seeklogo.com.png
 featuredImgAlt: qaqao
 imgSource: https://seeklogo.com/
 ---
