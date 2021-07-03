@@ -1,9 +1,9 @@
 ---
 title: MERN Stack setup
 subtitle: How to setup mern stack
-category: mern
+category: project
 slug: mern-stack-setup
-date: 2021-06-29T00:06:00+00:00
+date: 2021-07-05T00:06:00+00:00
 featuredImgUrl: https://swonigatechnology.com/wp-content/uploads/2021/03/Blog-Article-MERN-Stack.jpg
 featuredImgAlt: mern-stack-setup
 imgSource: https://swonigatechnology.com/mern-stack/
