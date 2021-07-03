@@ -4,9 +4,9 @@ subtitle: How to setup mern stack
 category: project
 slug: mern-stack-setup
 date: 2021-07-05T00:06:00+00:00
-featuredImgUrl: https://swonigatechnology.com/wp-content/uploads/2021/03/Blog-Article-MERN-Stack.jpg
+featuredImgUrl: https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/121002887/original/9f2174ec1236e128859a8ad2ff98a5a21a0230b7/sdwdwdwwqwfhijwwfwefh-eif-wehfiwehf-i-hwei.jpg
 featuredImgAlt: mern-stack-setup
-imgSource: https://swonigatechnology.com/mern-stack/
+imgSource: https://fiverr-res.cloudinary.com
 ---
 
 #### What is a MERN stack?

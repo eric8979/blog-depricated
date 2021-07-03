@@ -1,12 +1,12 @@
 ---
-title: qaqao
+title: qaqao day-1
 subtitle: Build log of qaqao(mock kakao)
 category: project
-slug: qaqao
+slug: qaqao-day-1
 date: 2021-07-03T00:08:30+00:00
-featuredImgUrl: https://seeklogo.com/images/K/kakao-logo-3FAB2BB9CD-seeklogo.com.png
-featuredImgAlt: qaqao
-imgSource: https://seeklogo.com/
+featuredImgUrl: https://images.unsplash.com/photo-1611606063065-ee7946f0787a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVzc2FnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60
+featuredImgAlt: qaqao-day-1
+imgSource: https://images.unsplash.com/
 ---
 
 #### Project Description
@@ -30,7 +30,7 @@ imgSource: https://seeklogo.com/
 
 #### Day-1 - Setup
 
-(qaqao GitHub repo)[http://github.com/eric8979/]
+(qaqao GitHub repo)[https://github.com/eric8979/qaqao.git]
 
 <br>
 
