@@ -9,11 +9,19 @@ featuredImgAlt: export-and-require
 imgSource: https://logosvector.net/ (by Hanson Chan)
 ---
 
+[Download node.js](https://nodejs.org/en/download/)
+
+<br>
+
 #### Why export and require?
 
 Since node.js uses "CommonJS", "module.exports" and "require" is the default.
+To use ES6+ syntax ("import ... from ..." and "export default ...") there are two options.
+
 <br>
-(Have to use transcompiler like [Babel](https://babeljs.io/) to use "import from" and "export default" syntax.)
+
+1. Add "type": "module" in package.json
+2. Use transcompiler like [Babel](https://babeljs.io)
 
 <br>
 
