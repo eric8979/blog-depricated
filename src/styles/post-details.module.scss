@@ -31,7 +31,9 @@
 
   .imgBox {
     width: 100%;
+    border-radius: 10px;
     .featuredImg {
+      width: 100%;
       border-radius: 10px;
       isolation: isolate;
     }
