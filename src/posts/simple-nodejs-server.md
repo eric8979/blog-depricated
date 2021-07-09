@@ -61,16 +61,16 @@ Event loop is where everything happens.
 
 <br>
 
-|                     |            |                      |
-| ------------------: | :--------: | -------------------: |
-|          request ➡️ | Event Loop | ➡️ register callback |
-|                  ️️ |            |                  ⬇️️ |
-| execute callback ⬅️ | Event Loop | ⬅️ callback complete |
+[![nodejs eventloop](https://miro.medium.com/max/1400/1*jLDq9IOW31Tu-ojeqe9bBw.png)](https://medium.com/@sgd.daran/node-js-single-threaded-event-loop-model-dbeccf6a7c34)
+
+image from
+https://medium.com/@sgd.daran/node-js-single-threaded-event-loop-model-dbeccf6a7c34
 
 <br>
-<br>
 
-#### +bonus: npm and npx
+#### +bonus
+
+**1. npm and npx**
 
 - npm: package manager
 
@@ -79,3 +79,11 @@ Event loop is where everything happens.
 <br>
 
 In order to use nodemon globally, you have to install it globally first(or at least in the folder). But with npx you just can use(execute) it like create-react-app.
+
+<br>
+
+**2. Sync and Async**
+
+- Sync: Wait for a **task** to finish and then do the next one. (step by step)
+
+- Async: Do a **task** in the background and continue the tasks

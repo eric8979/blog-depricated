@@ -3,7 +3,7 @@ title: qaqao day-1
 subtitle: Learning Apollo server/client
 category: project
 slug: qaqao-day-1
-date: 2021-07-10T00:08:30+00:00
+date: 2021-07-12T00:08:30+00:00
 featuredImgUrl: https://images.unsplash.com/photo-1611606063065-ee7946f0787a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVzc2FnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60
 featuredImgAlt: qaqao-day-1
 imgSource: https://unsplash.com/ (by Alexander Shatov)
