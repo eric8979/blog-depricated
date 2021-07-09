@@ -22,7 +22,7 @@ imgSource: https://unsplash.com/ (by Alexander Shatov)
 <br>
 
 - Project Goal: Learn how to add graphql on node/express.
-- What can I achieve: How to build full-stack(MERN) website more sustainable.
+- What I can achieve: How to build full-stack(MERN) website more sustainable.
 - Language: GraphQL, TypeScript, Scss
 - Tech: MERN, Apollo, yarn, git
 
