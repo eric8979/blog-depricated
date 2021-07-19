@@ -25,18 +25,22 @@
 
       .thumbbox {
         height: 250px;
+        width: 100%;
         margin: 0;
         box-sizing: border-box;
-        background-color: white;
+        background-color: none;
         overflow: clip;
         .thumb {
-          height: 250px;
+          height: 240px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          width: 100%;
           display: block;
           border-radius: 8px 8px 0 0;
           isolation: isolate;
           transition: transform 0.3s;
           img {
-            max-height: 250px;
+            max-height: 240px;
             max-width: 100%;
             margin: 0 auto;
           }
