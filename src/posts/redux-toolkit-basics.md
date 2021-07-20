@@ -52,3 +52,17 @@ My code has minimum amount of code. I deleted styling, unnecessary components an
 #### Brief description on my code
 
 I recommend reading readme first. It's not even a reading, it just has what tools are used from react-redux and redux-toolkit. Code comments are the descriptions of each functions like `createSlice` or `createAsyncThunk`. Hope my code helps you to get basic understanding on redux-toolkit.
+
+<br>
+
+#### + source
+
+Edit: on Jul, 20, 2021.
+
+<br>
+
+I am currently working on qaqao (mock kakao(chat application)) and I used redux toolkit in the project. If you want to check the source code. Visit Link down below.
+
+<br>
+
+[qaqao Link](https://github.com/eric8979/qaqao)
