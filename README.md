@@ -1,3 +1,11 @@
+# ⚠️ notice
+
+Writing this on Jul,30,2021
+
+<br>
+
+This blog doesn't have enough functionality (for blog post page by the most) and needs serious fix even not a re-constructing from bottom.
+
 # 🐋 Coding Whale (programming blog)
 
 This is Eric Whale's programming blog. I post programming stuff and my projects. <br>
@@ -8,16 +16,16 @@ Welcome to my blog and feel free to use the source code if you want. Suggestions
 
 ## Rules
 
-1. Only push from local dir when there is bug fix, design update. NO GIT PUSH FOR BLOG POSTS! 
+1. Only push from local dir when there is bug fix, design update. NO GIT PUSH FOR BLOG POSTS!
 2. Post/update blog post ONLY ON GITHUB REPO.
 
 ## Used languages & tools
 
-* Language: JavaScript (-> TypeScript soon)
-* Package installer: npm
-* Build: Gatsby (need React basics) - checkout source code for plugins
-* Style: Scss
-* Deploy: Netlify & GitHub page
+- Language: JavaScript (-> TypeScript soon)
+- Package installer: npm
+- Build: Gatsby (need React basics) - checkout source code for plugins
+- Style: Scss
+- Deploy: Netlify & GitHub page
 
 ---
 
@@ -25,7 +33,7 @@ Welcome to my blog and feel free to use the source code if you want. Suggestions
 
 💲 blog domain??
 
-<!--  types of websites 
+<!--  types of websites
 
 - static website (SEO👍, speed & update👎)
 
@@ -41,6 +49,6 @@ Welcome to my blog and feel free to use the source code if you want. Suggestions
   - compiled at build time (before deployment)
   - made with react/vue
   - after initial request, the site behaves like a SPA
- 
+
 [net ninja video](https://www.youtube.com/watch?v=Qms4k6y7OgI&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1&rv=Qms4k6y7OgI&t=25)
  -->

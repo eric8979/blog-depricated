@@ -57,7 +57,7 @@ I recommend reading readme first. It's not even a reading, it just has what tool
 
 #### + source
 
-Edit: on Jul, 20, 2021.
+Edit: Jul, 20, 2021.
 
 <br>
 
