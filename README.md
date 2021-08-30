@@ -1,10 +1,8 @@
-# ⚠️ notice
-
-Writing this on Jul,30,2021
-
-<br>
+# ⚠️ Notice (Jul,30,2021)
 
 This blog doesn't have enough functionality (for blog post page by the most) and needs serious fix even not a re-constructing from bottom.
+
+---
 
 # 🐋 Coding Whale (programming blog)
 
