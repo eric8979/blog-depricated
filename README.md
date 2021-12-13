@@ -1,6 +1,8 @@
 # ⚠️ Notice (Jul,30,2021)
 
-This blog doesn't have enough functionality (for blog post page by the most) and needs serious fix even not a re-constructing from bottom.
+⛔️ This blog doesn't have enough functionality (for blog post page by the most) and needs serious fix even not a re-constructing from bottom.
+
+🎉 Check [Current Portfolio Website](https://github.com/eric8979/blog)
 
 ---
 
